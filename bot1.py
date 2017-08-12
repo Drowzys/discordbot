@@ -3,8 +3,8 @@ import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
 
-Client = discord.Client()
-bot_prefix= "."
+client = discord.Client()
+bot_prefix= "."tut
 client = commands.Bot(command_prefix=bot_prefix)
 
 
@@ -32,6 +32,7 @@ async def disconnect(ctx):
     for x in client.voice_clients:
         if(x.server == ctx.message.server):
             return await x.disconnect()	
+
 
 
 client.run('MzQ0NjE5MTk5OTk1NDQ1MjU5.DHAfKA.o1t935Ij4AkIIDpPNXktrzexQYI')

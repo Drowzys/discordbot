@@ -1,0 +1,2 @@
+start /k "python "C:\Users\TempAdmin2\Desktop\discordbot\bot1.py"
+pause>nul

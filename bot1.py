@@ -4,7 +4,7 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 
 client = discord.Client()
-bot_prefix= "."tut
+bot_prefix= "."
 client = commands.Bot(command_prefix=bot_prefix)
 
 

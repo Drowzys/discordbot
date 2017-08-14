@@ -57,6 +57,12 @@ async def clear(ctx, number):
     async for x in client.logs_from(ctx.message.channel, limit = number):
         mgs.append(x)
     await client.delete_messages(mgs)
+
+
+@client.command(pass_context=True)
+async def rape(ctx, args):
+	await client.say("You raped {}".format(args))
+
     
 
 client.run('MzQ0NjE5MTk5OTk1NDQ1MjU5.DHAfKA.o1t935Ij4AkIIDpPNXktrzexQYI')

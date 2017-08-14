@@ -9,7 +9,7 @@ from namegen import race
 from namegen import age
 from namegen import char
  
-
+#what you put before the command
 client = discord.Client()
 bot_prefix= "."
 client = commands.Bot(command_prefix=bot_prefix)

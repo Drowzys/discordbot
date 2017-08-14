@@ -46,7 +46,7 @@ async def roleplay(ctx):
 
 
     def main():
-        print(generateName("names.txt"))
+        return generateName("names.txt")
 
     await client.say("Your role is {}!".format(main()))
 

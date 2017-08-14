@@ -1,0 +1,81 @@
+
+Aboriginal/Australian, South Pacific
+Aborigine
+African
+African/African-American/Black
+African-American
+African-American/Black
+American
+American Indian
+Arabian
+Arabic
+Arab/Middle Eastern
+Asian
+Asian/-American
+Asian/Indian
+Asian/Oriental
+Asian/Other than American
+Asian/Mongoloid
+Asian/Subcontinent
+Asian/Pacific
+Bi/multiracial
+Black
+Black/African
+Black/African descent
+Black/African-American
+Black/American
+Black/Central-Southern African
+Black/Other than American
+Brown/Hispanic
+Caucasion: 6
+Caucasion/White
+Chinese
+Combination
+Eastern Indian
+Eskimo
+Eskimo/Aleutian
+European
+Filipino
+Hispanic
+Hispanic/American
+Hispanic/Latin
+Hispanic/Latino
+Hispanic
+Indian
+Indian/Middle Asian
+Indian/Native American 
+Indian/Pakistani
+Islander
+Japanese
+Jewish
+Korean
+Latina
+Latino
+Latino/a
+Latino/Hispanic
+Mestiza/Mixed
+Mexican
+Middle Eastern
+Middle Eastern/American
+Middle Eastern/Arabic
+Middle Eastern/Other than American
+Mixed
+Mixes
+Mix of some
+Native American
+Native American/Aborigine
+Native American/Indian
+Native American/Indigenous People
+Oriental
+Pacific Islander
+Pacific Islander/East Asian
+Polynesian/Pacific Islander
+South American/Latin American descent
+Vietnamese
+White
+White/American
+White/Caucasian
+White/European
+White/Northern European
+White/Other than American
+Yellow/Asian/Pacific Islander/Native American

@@ -3,7 +3,12 @@ import asyncio
 from discord.ext.commands import Bot
 from discord.ext import commands
 import random
-
+import namegen
+from namegen import name
+from namegen import race
+from namegen import age
+from namegen import char
+ 
 
 client = discord.Client()
 bot_prefix= "."
@@ -19,6 +24,7 @@ async def on_ready():
 @client.command(pass_context=True)
 async def ping(ctx):
 	await client.say("Pong!")
+	
 
 
 @client.command(pass_context=True)
@@ -37,20 +43,20 @@ async def disconnect(ctx):
 
 @client.command(pass_context=True)
 async def roleplay(ctx):
-    def generateName(infile):
-        with open(infile) as f:
-            nameContents = f.read()
-        lines = nameContents.splitlines()
-        line_number = random.randrange(0, len(lines))
-        return lines[line_number]
+    name()
+    char()
+    age()
+    race()
 
+    await client.say("Your role is {}, you are {} years old, you are {} and you are {}!".format(name(), age(), char(), race()))
 
-    def main():
-        return generateName("names.txt")
-
-    await client.say("Your role is {}!".format(main()))
-
-
+@client.command(pass_context=True)       
+async def clear(ctx, number):
+    mgs = []
+    number = int(number) 
+    async for x in client.logs_from(ctx.message.channel, limit = number):
+        mgs.append(x)
+    await client.delete_messages(mgs)
     
 
 client.run('MzQ0NjE5MTk5OTk1NDQ1MjU5.DHAfKA.o1t935Ij4AkIIDpPNXktrzexQYI')

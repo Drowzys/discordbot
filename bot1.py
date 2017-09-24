@@ -8,11 +8,15 @@ from namegen import name
 from namegen import race
 from namegen import age
 from namegen import char
- 
+import gameGen
+from gameGen import games
+
 #what you put before the command
 client = discord.Client()
 bot_prefix= "."
 client = commands.Bot(command_prefix=bot_prefix)
+
+
 
 #stuff it prints into the console
 @client.event
@@ -63,6 +67,15 @@ async def clear(ctx, number):
 async def rape(ctx, args):
 	await client.say("You raped {}".format(args))
 
-    
+
+@client.command(pass_context=True)
+async def game(ctx):
+    games()
+
+    await client.say("You should play {} today!".format(games()))
+
+
+
+
 #runs the bot
 client.run('MzQ0NjE5MTk5OTk1NDQ1MjU5.DHAfKA.o1t935Ij4AkIIDpPNXktrzexQYI')
